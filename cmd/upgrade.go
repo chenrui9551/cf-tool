@@ -3,6 +3,7 @@ package cmd
 import (
 	"archive/zip"
 	"bytes"
+	"cf-tool/util"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -16,7 +17,6 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/xalanq/cf-tool/util"
 )
 
 func less(a, b string) bool {

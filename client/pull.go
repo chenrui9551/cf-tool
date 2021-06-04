@@ -1,6 +1,7 @@
 package client
 
 import (
+	"cf-tool/util"
 	"errors"
 	"fmt"
 	"html"
@@ -9,8 +10,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
-
-	"github.com/xalanq/cf-tool/util"
 
 	"github.com/fatih/color"
 )

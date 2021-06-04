@@ -3,6 +3,7 @@ package client
 import (
 	"bufio"
 	"bytes"
+	"cf-tool/util"
 	"errors"
 	"fmt"
 	"io"
@@ -10,8 +11,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/xalanq/cf-tool/util"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/fatih/color"

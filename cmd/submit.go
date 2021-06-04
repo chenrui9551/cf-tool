@@ -1,10 +1,9 @@
 package cmd
 
 import (
+	"cf-tool/client"
+	"cf-tool/config"
 	"io/ioutil"
-
-	"github.com/xalanq/cf-tool/client"
-	"github.com/xalanq/cf-tool/config"
 )
 
 // Submit command

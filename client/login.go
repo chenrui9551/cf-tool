@@ -1,6 +1,7 @@
 package client
 
 import (
+	"cf-tool/util"
 	"crypto/aes"
 	"crypto/cipher"
 	"crypto/md5"
@@ -9,13 +10,12 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"net/http/cookiejar"
 	"net/url"
 	"regexp"
 	"syscall"
 
 	"github.com/fatih/color"
-	"github.com/xalanq/cf-tool/cookiejar"
-	"github.com/xalanq/cf-tool/util"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

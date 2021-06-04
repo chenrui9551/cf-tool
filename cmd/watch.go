@@ -1,8 +1,6 @@
 package cmd
 
-import (
-	"github.com/xalanq/cf-tool/client"
-)
+import "cf-tool/client"
 
 // Watch command
 func Watch() (err error) {

@@ -2,6 +2,7 @@ package client
 
 import (
 	"bytes"
+	"cf-tool/util"
 	"fmt"
 	"html"
 	"io/ioutil"
@@ -10,8 +11,6 @@ import (
 	"regexp"
 	"strings"
 	"sync"
-
-	"github.com/xalanq/cf-tool/util"
 
 	"github.com/k0kubun/go-ansi"
 

@@ -1,11 +1,10 @@
 package client
 
 import (
+	"cf-tool/util"
 	"errors"
 	"regexp"
 	"strings"
-
-	"github.com/xalanq/cf-tool/util"
 )
 
 // StatisInfo statis information

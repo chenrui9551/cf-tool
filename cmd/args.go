@@ -1,14 +1,14 @@
 package cmd
 
 import (
+	"cf-tool/client"
+	"cf-tool/config"
 	"fmt"
 	"os"
 	"path/filepath"
 	"regexp"
 
 	"github.com/docopt/docopt-go"
-	"github.com/xalanq/cf-tool/client"
-	"github.com/xalanq/cf-tool/config"
 )
 
 // ParsedArgs parsed arguments

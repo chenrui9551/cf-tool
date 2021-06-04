@@ -1,6 +1,9 @@
 package cmd
 
 import (
+	"cf-tool/client"
+	"cf-tool/config"
+	"cf-tool/util"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -11,9 +14,6 @@ import (
 	"github.com/docopt/docopt-go"
 
 	"github.com/fatih/color"
-	"github.com/xalanq/cf-tool/client"
-	"github.com/xalanq/cf-tool/config"
-	"github.com/xalanq/cf-tool/util"
 )
 
 // Eval opts

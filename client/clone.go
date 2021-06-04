@@ -1,6 +1,7 @@
 package client
 
 import (
+	"cf-tool/util"
 	"fmt"
 	"path/filepath"
 	"strings"
@@ -8,7 +9,6 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/xalanq/cf-tool/util"
 )
 
 type cloneData struct {

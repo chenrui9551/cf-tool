@@ -1,12 +1,13 @@
 package config
 
 import (
+	"cf-tool/util"
 	"fmt"
 	"regexp"
 
+	"cf-tool/client"
+
 	"github.com/fatih/color"
-	"github.com/xalanq/cf-tool/client"
-	"github.com/xalanq/cf-tool/util"
 )
 
 // SetGenAfterParse set it yes or no

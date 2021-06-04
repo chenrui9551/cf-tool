@@ -1,9 +1,8 @@
 package cmd
 
 import (
+	"cf-tool/client"
 	"os"
-
-	"github.com/xalanq/cf-tool/client"
 )
 
 // Clone command

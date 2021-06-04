@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
+	"net/http/cookiejar"
 	"net/url"
 	"os"
 	"path/filepath"
 
 	"github.com/fatih/color"
-	"github.com/xalanq/cf-tool/cookiejar"
 )
 
 // Client codeforces client
